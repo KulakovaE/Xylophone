@@ -13,9 +13,16 @@ import AVFoundation
 class ViewController: UIViewController {
 
     var audioPlayer: AVAudioPlayer!
-  
+    @IBOutlet weak var button: UIButton!
+    
     @IBAction func keyPressed(_ sender: UIButton) {
+        
         playSound(soundName: sender.currentTitle!)
+        
+        UIButton.animate(withDuration: 0.2) {
+            sender.alpha = 0.5
+            sender.alpha = 1
+        }
     }
     
     func playSound(soundName: String) {
@@ -25,4 +32,3 @@ class ViewController: UIViewController {
         audioPlayer?.play()
     }
 }
-
