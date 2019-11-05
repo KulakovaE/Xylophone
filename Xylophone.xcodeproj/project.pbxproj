@@ -75,8 +75,8 @@
 				1838DAE8237198880086EC10 /* ViewController.swift */,
 				1838DAEA237198880086EC10 /* Main.storyboard */,
 				1838DAED237198880086EC10 /* Assets.xcassets */,
-				1838DAEF237198880086EC10 /* LaunchScreen.storyboard */,
 				1838DAF823719FC50086EC10 /* Sounds */,
+				1838DAEF237198880086EC10 /* LaunchScreen.storyboard */,
 				1838DAF2237198880086EC10 /* Info.plist */,
 			);
 			path = Xylophone;
@@ -323,6 +323,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YJ2U97422Q;
 				INFOPLIST_FILE = Xylophone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -341,6 +342,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YJ2U97422Q;
 				INFOPLIST_FILE = Xylophone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
